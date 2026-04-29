@@ -13,9 +13,7 @@ const Contact = () => {
     setResult("Sending....");
     const formData = new FormData(event.target);
 
-    // NOTE: You must get your own Access Key from https://web3forms.com/
-    // It's free and takes 30 seconds.
-    formData.append("access_key", "YOUR_ACCESS_KEY_HERE");
+    formData.append("access_key", "b113dba1-cdcd-4b4e-aa7a-8debd3e5737b");
 
     try {
       const response = await fetch("https://api.web3forms.com/submit", {
@@ -143,13 +141,13 @@ const Contact = () => {
                 <Send size={18} />
                 {isSubmitting ? "Sending..." : "Send Message"}
               </button>
-              
+
               {result && (
-                <p style={{ 
-                  marginTop: '1rem', 
-                  fontSize: '14px', 
+                <p style={{
+                  marginTop: '1rem',
+                  fontSize: '14px',
                   color: result.includes('successfully') ? '#4ade80' : '#f87171',
-                  textAlign: 'center' 
+                  textAlign: 'center'
                 }}>
                   {result}
                 </p>
