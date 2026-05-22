@@ -4,14 +4,13 @@ export const personalInfo = {
   description: "Software Engineer crafting digital experiences with 2+ year of expertise.",
   description1: "Specializing in full-stack web & app development, DevOps practices, and scalable solutions that drive business growth.",
   location: "Lahore, Pakistan",
-  email: "m.hassanakhtar107@gmail.com",
   phone: "+92-303-4400107",
   linkedin: "https://www.linkedin.com/in/muhammad-hassanakhtar/",
   github: "https://github.com/HassanAkhtar107",
   resumeUrl: "/M Hassan Akhtar.pdf",
   stats: [
     { label: "Projects", value: "10+" },
-    { label: "Years Exp", value: "2+" },
+    { label: "Years Exp", value: "1.5+" },
     { label: "Client Satisfaction", value: "100%" }
   ]
 };
@@ -44,18 +43,18 @@ export const experience = [
     title: "Full-Stack Developer",
     company: "Valueans",
     location: "Lahore, Pakistan",
-    period: "Jan 2026 — Present",
-    description: "Working on complex web and mobile applications using React Native, Next.js, and Django. Leading feature development and ensuring high-performance code across the stack.",
-    technologies: ["React Native", "Next.js", "Django", "PostgreSQL"]
+    period: "July 2025 — Present",
+    description: "Working on complex web and mobile applications using React Native, React, Next.js, and Django. Leading feature development and ensuring high-performance code across the stack.",
+    technologies: ["React Native", "React", "Next.js", "Django", "PostgreSQL"]
   },
-  {
-    title: "Full-Stack Developer",
-    company: "Adaptive Nodes",
-    location: "Lahore, Pakistan",
-    period: "July 2025 — Dec 2025",
-    description: "Developed and maintained scalable web applications using React and Django. Implemented RESTful APIs and optimized database queries for better performance.",
-    technologies: ["React", "Python", "Django", "PostgreSQL"]
-  },
+  // {
+  //   title: "Full-Stack Developer",
+  //   company: "Adaptive Nodes",
+  //   location: "Lahore, Pakistan",
+  //   period: "July 2025 — Dec 2025",
+  //   description: "Developed and maintained scalable web applications using React and Django. Implemented RESTful APIs and optimized database queries for better performance.",
+  //   technologies: ["React", "Python", "Django", "PostgreSQL"]
+  // },
   {
     title: "App Developer",
     company: "Daira Engineering",
