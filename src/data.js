@@ -11,7 +11,7 @@ export const personalInfo = {
   resumeUrl: "/M Hassan Akhtar.pdf",
   stats: [
     { label: "Projects", value: "10+" },
-    { label: "Years Exp", value: "1.5+" },
+    { label: "Years Exp", value: "2+" },
     { label: "Client Satisfaction", value: "100%" }
   ]
 };
