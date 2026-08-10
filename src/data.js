@@ -25,7 +25,7 @@ export const skills = [
   {
     category: "Frameworks & Libraries",
     icon: "layers",
-    items: ["React", "Next.js", "React Native", "Django"]
+    items: ["React", "Next.js", "React Native", "Django Rest Framework(DRF)"]
   },
   {
     category: "DevOps & Tools",
