@@ -30,7 +30,7 @@ export const skills = [
   {
     category: "DevOps & Tools",
     icon: "settings",
-    items: ["Docker", "Git", "CI/CD Pipeline", "Firebase", "PostgreSQL", "SQLite"]
+    items: ["Docker", "Git", "CI/CD Pipeline", "Firebase", "PostgreSQL", "MySQL", "SQLite"]
   },
   {
     category: "UI & Styling",
@@ -46,7 +46,7 @@ export const experience = [
     location: "Lahore, Pakistan",
     period: "July 2025 — Present",
     description: "Working on complex web and mobile applications using React Native, React, Next.js, and Django. Leading feature development and ensuring high-performance code across the stack.",
-    technologies: ["React Native", "React", "Next.js", "Django", "PostgreSQL"]
+    technologies: ["React Native", "React", "Next.js", "Django Rest Framework(DRF)", "PostgreSQL", "MySql"]
   },
   {
     title: "App Developer",
