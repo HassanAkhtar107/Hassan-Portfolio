@@ -44,7 +44,7 @@ export const experience = [
     title: "Full-Stack Developer",
     company: "Valueans",
     location: "Lahore, Pakistan",
-    period: "July 2025 — Present",
+    period: "June 2025 — Present",
     description: "Working on complex web and mobile applications using React Native, React, Next.js, and Django. Leading feature development and ensuring high-performance code across the stack.",
     technologies: ["React Native", "React", "Next.js", "Django Rest Framework(DRF)", "PostgreSQL", "MySql"]
   },
@@ -52,7 +52,7 @@ export const experience = [
     title: "App Developer",
     company: "Daira Engineering",
     location: "Lahore, Pakistan",
-    period: "Nov 2024 — Jun 2025",
+    period: "Nov 2024 — May 2025",
     description: "Focused on building high-quality mobile applications with React Native. Collaborated with UI/UX designers to implement pixel-perfect designs.",
     technologies: ["React Native", "Maps", "Google Maps API"]
   }
