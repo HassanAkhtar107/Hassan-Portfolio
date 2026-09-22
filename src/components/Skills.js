@@ -1,14 +1,15 @@
 "use client";
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Code, Layers, Palette, Settings } from 'lucide-react';
+import { Code, Layers, Palette, Settings, Brain } from 'lucide-react';
 import { skills } from '@/data';
 
 const iconMap = {
   code: <Code size={18} />,
   layers: <Layers size={18} />,
   palette: <Palette size={18} />,
-  settings: <Settings size={18} />
+  settings: <Settings size={18} />,
+  brain: <Brain size={18} />,
 };
 
 const Skills = () => {
@@ -37,7 +38,7 @@ const Skills = () => {
                 </div>
                 <h3 style={{ fontSize: '14px', fontWeight: 700 }}>{skillGroup.category}</h3>
               </div>
-              
+
               <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.5rem' }}>
                 {skillGroup.items.map((skill, i) => (
                   <span key={i} className="badge">

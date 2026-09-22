@@ -33,6 +33,11 @@ export const skills = [
     items: ["Docker", "Git", "CI/CD Pipeline", "Firebase", "PostgreSQL", "MySQL", "SQLite"]
   },
   {
+    category: "AI & DEVELOPMENT TOOLS",
+    icon: "brain",
+    items: ["Cursor", "Claude", "Google Antigravity"]
+  },
+  {
     category: "UI & Styling",
     icon: "palette",
     items: ["Tailwind", "MUI", "CSS Modules", "Responsive Design"]
@@ -84,18 +89,18 @@ export const projects = [
     demoLink: "#"
   },
   {
-    title: "NutriBot AI App",
-    description: "A smart nutrition assistant that simplifies diet tracking through AI. It features Vision Camera for instant food identification...",
-    image: "/images/Nutribot.avif",
-    technologies: ["React Native", "Firebase", "Vision Camera", "AI Integrations"],
+    title: "Horse Auction & Marketplace",
+    description: "A full-stack horse trading platform with real-time bidding, auction-based listings, and secure payment integration.",
+    image: "/images/Horse.jpg",
+    technologies: ["React Native", "Django", "PostgreSQL", "WebSockets", "Django Channels"],
     codeLink: "#",
     demoLink: "#"
   },
   {
-    title: "Horse Auction & Marketplace",
-    description: "A full-stack horse trading platform with real-time bidding, auction-based listings, and secure payment integration.",
-    image: "/images/Horse.jpg",
-    technologies: ["React Native", "Django", "PostgreSQL", "WebSockets"],
+    title: "NutriBot AI App",
+    description: "A smart nutrition assistant that simplifies diet tracking through AI. It features Vision Camera for instant food identification...",
+    image: "/images/Nutribot.avif",
+    technologies: ["React Native", "Firebase", "Vision Camera", "AI Integrations"],
     codeLink: "#",
     demoLink: "#"
   },

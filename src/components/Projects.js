@@ -40,7 +40,7 @@ const Projects = () => {
                 <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '1rem' }}>
                   <h3 style={{ fontSize: '18px', fontWeight: 800 }}>{project.title}</h3>
                   <div style={{ display: 'flex', gap: '0.5rem' }}>
-                    <a href={project.codeLink} style={{ color: 'var(--secondary)' }}><Github size={18} /></a>
+                    {/* <a href={project.codeLink} style={{ color: 'var(--secondary)' }}><Github size={18} /></a> */}
                     <a href={project.demoLink} style={{ color: 'var(--secondary)' }}><ExternalLink size={18} /></a>
                   </div>
                 </div>
