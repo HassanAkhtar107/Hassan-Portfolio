@@ -69,7 +69,7 @@ export const projects = [
     description: "Secure hospital portal for managing branches and patient records with advanced data filtering and sorting.",
     detailDescription: "Patient Records Management is a hospital management portal designed to help healthcare organizations manage multiple branches and patient records in one centralized system. The platform provides organized patient data management with advanced filtering, sorting, and data table functionality, making it easier for staff to search, view, and manage patient information efficiently.",
     image: "/images/PatientRecord.jpg",
-    technologies: ["React", "DRF", "PostgreSQL", "agGrid", "MUI"],
+    technologies: ["React", "DRF", "PostgreSQL", "agGrid", "MUI", "Docker"],
     codeLink: "#",
     demoLink: "https://referralynx.com/",
     contribution: [
@@ -85,7 +85,7 @@ export const projects = [
     description: "Admin-driven template system with dynamic chapters and field selection for automated PDF generation.",
     detailDescription: "Document Generation System is a web-based platform that allows administrators to create and manage document templates using dynamic chapters and fields. Users can select the required information and generate customized documents efficiently. The system is designed to simplify the document creation process and reduce the need for manually preparing repetitive documents.",
     image: "/images/DocGen.avif",
-    technologies: ["Next.js", "Tailwind", "Django", "PostgreSQL"],
+    technologies: ["Next.js", "Tailwind", "Django", "PostgreSQL", "Docker"],
     codeLink: "#",
     demoLink: "https://docugen.io/",
     contribution: [
@@ -117,7 +117,7 @@ export const projects = [
     description: "A full-stack horse trading platform with real-time bidding, auction-based listings, and secure payment integration.",
     detailDescription: "Horse Auction & Marketplace is a full-stack mobile and web platform for buying, selling, and auctioning horses online. Users can create and browse horse listings, participate in auctions, place real-time bids, and manage their marketplace activities. The platform uses real-time communication to keep auction bids synchronized between users.",
     image: "/images/Horse.jpg",
-    technologies: ["React Native", "Django", "PostgreSQL", "WebSockets", "Django Channels"],
+    technologies: ["React Native", "Django", "PostgreSQL", "WebSockets", "Django Channels", "Docker"],
     codeLink: "#",
     demoLink: "#",
     contribution: [
@@ -160,5 +160,21 @@ export const projects = [
     ],
     role: "Full-Stack Mobile Developer"
   },
+  {
+    title: "NetSecureAnalyzer",
+    description: "A full-stack network security monitoring platform for monitoring network traffic, firewall activity, VPN status, connected devices, and secure file transfers.",
+    detailDescription: "NetSecureAnalyzer is a full-stack network security monitoring and management platform built to simulate and monitor real-world network environments. It provides administrators with tools to manage firewall rules, block and unblock IP addresses using Windows Firewall, monitor live TCP connections, and track connected devices with VPN and geolocation information. Regular users can view their device information, send and receive secure file transfers, and manage their VPN status. The platform also provides a real-time dashboard with network metrics such as upload/download speed, ping, jitter, packet loss, and TCP connections collected using psutil.",
+    image: "/images/NetSecureAnalyzer.png",
+    technologies: ["React", "Django", "PostgreSQL", "psutil", "Windows Firewall", "Docker"],
+    codeLink: "https://github.com/HassanAkhtar107/NetSecureAnalyzer",
+    demoLink: "#",
+    contribution: [
+      "Built the complete project from scratch as a full-stack developer.",
+      "Developed the React frontend with dashboards and network visualizations.",
+      "Built the Django REST backend for network monitoring, firewall controls, and file transfers.",
+      "Implemented real-time network monitoring using psutil and Windows Firewall integration."
+    ],
+    role: "Full-Stack Developer"
+  }
 ];
 
